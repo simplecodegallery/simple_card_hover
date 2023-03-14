@@ -1,0 +1,20 @@
+body{
+  background-color: #212121;
+}
+.container{
+  display: flex;
+  gap: 10px;
+  width: 1000px;
+}
+.card{
+  background-color: #fff;
+  border-radius: 20px;
+
+  height: 200px;
+  flex: 1;
+  transition: .3s all ease;
+}
+.card:hover{
+  flex: 2;
+  background-color: rgb(44, 82, 209);
+}
